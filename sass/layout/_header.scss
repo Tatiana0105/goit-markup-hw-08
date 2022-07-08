@@ -194,6 +194,10 @@
   color: var(--accent-color);
 }
 
+.mob-contact__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mob-contact-tel {
   font-weight: 500;
   font-size: 34px;

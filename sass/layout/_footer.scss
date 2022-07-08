@@ -18,10 +18,10 @@
 
 .wrap-tablet {
   @media screen and (min-width: 768px) {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-  // margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    // margin-bottom: 60px;
   }
 }
 
@@ -180,12 +180,14 @@
   @media screen and (min-width: 1200px) {
     display: flex;
   }
-
 }
 
 .footer-form-wrap {
-
-  @media screen and (min-width:480px) and (max-width:1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     margin-top: 60px;
   }
+}
+
+.socials__icon--light {
+  fill: var(--white-text);
 }
